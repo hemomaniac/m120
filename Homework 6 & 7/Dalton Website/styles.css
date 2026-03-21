@@ -1,0 +1,36 @@
+
+.textBlock {
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+
+#mainnav a {
+    text-decoration: none;
+    color: rgb(231, 107, 86);
+    font-weight: bold;
+}
+
+#mainnav {
+    background-color: #ddd;
+    padding: 10px;
+}
+.storyPage {
+    background-image: url("Waterhouse.jpg"); /* change this to not be busy later... */
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;  
+    min-height: 100vh;
+
+}   
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black, remove later maybe? */
+    color: white; /* makes text white, in theory */
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* safety override on the white because I'm dumb as FUCK */
+.storyPage .textBlock {
+    color: white;
